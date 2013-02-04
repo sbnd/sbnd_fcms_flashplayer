@@ -1,0 +1,20 @@
+1) Unpack "Events-v.1.0.0.rar" in the site root or copy the files from the archive in their coresponding folders in the site root.
+	For Example:
+	All .php files (located in: root\plugins) have to be placed in plugins folder (located in: root\plugins) of the site root.
+
+2) If you want to replace the default flash player open config/site_config.php and add in the bottom(before "}catch"):
+
+	BASIC::init()->imported('FlashVideo2MediaPlugin', 'plugins/flashplayer');
+
+3) In order to use in a template add this tag
+
+	<!-- image('upload/path_to_flv ',width=xxx|height=xxx|style=border:1px solid ${imagecolor};) -->
+	
+	where the flash player should appear.
+	
+	3.1) The first param is the path to the flv file
+	3.2) The second params are as follows: width, height and additional css styles (not required)
+
+That is all :)
+
+Thank you for your interest and enjoy SBND F&CMS - Framework & CMS for PHP developers.
