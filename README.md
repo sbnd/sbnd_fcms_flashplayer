@@ -1,11 +1,7 @@
-sbnd_fcms_flashplayer
+Flashplayer Component
 =====================
+Flash Video Player component , that can be used independently into the frontend.
 
-Flashplayer package
-
-Media plugin for a flash video player. 
-
-backend component(s) : NO
-frontend component(s): YES
+The component has a frontend only.
 
 For more information: http://fcms.sbnd.net/
