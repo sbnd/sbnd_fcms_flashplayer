@@ -4,8 +4,8 @@
 # [Flashplayer Component](http://fcms.sbnd.net/en/download/) 
 
 =====================
-Flash Video Player component , that can be used independently into the frontend.
+A Flash Video Player component that can be used independently in the frontend.
 
-**The component has a frontend only.**
+The component only has a frontend part.
 
-For more information: **http://fcms.sbnd.net/**
+For more information, see: **http://fcms.sbnd.net/**
